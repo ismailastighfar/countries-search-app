@@ -1,11 +1,11 @@
 # 🌍 Mini REST Countries Explorer
 
 <div align="center">
-    <img src="https://reactrouter.com/_brand/react-router-stacked.png" alt="React Router Logo" width="200"/>
-    
-    [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
-    [![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)](https://reactrouter.com/)
-    [![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+    <div>
+        <img src="https://img.shields.io/badge/-React_JS-black?style=for-the-badge&logoColor=white&logo=react&color=61DAFB" alt="react.js" />
+        <img src="https://img.shields.io/badge/-React_Router-black?style=for-the-badge&logoColor=white&logo=reactrouter&color=CA4245" alt="react-router" />
+        <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
+    </div>
 </div>
 
 ## 🎯 Project Overview
@@ -34,13 +34,12 @@ An interactive web application for exploring country data using React Router V7.
 # Clone Repo
 git clone
 
-```bash
 # Install dependencies
 npm install
 
 # Start development server
 npm run dev
-
+```
 
 ## 📖 Documentation
 
