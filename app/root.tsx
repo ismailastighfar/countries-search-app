@@ -1,4 +1,5 @@
 import {
+  HashRouter,
   isRouteErrorResponse,
   Links,
   Meta,
@@ -46,12 +47,12 @@ export function Layout({ children }: { children: React.ReactNode }) {
 
 export default function App() {
   return (
-    <BrowserRouter basename="/countries-search-app">
+    <HashRouter basename="/countries-search-app">
     <div>
       <Navbar />
       <Outlet />
     </div>
-  </BrowserRouter>
+  </HashRouter>
   )
 }
 
