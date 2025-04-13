@@ -1,12 +1,9 @@
 {
   "name": "react-router",
-  "homepage": "https://ismailastighfar.github.io/countries-search-app",
   "private": true,
   "type": "module",
   "scripts": {
     "build": "react-router build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "dev": "react-router dev",
     "start": "react-router-serve ./build/server/index.js",
     "typecheck": "react-router typegen && tsc"
@@ -14,7 +11,6 @@
   "dependencies": {
     "@react-router/node": "^7.5.0",
     "@react-router/serve": "^7.5.0",
-    "gh-pages": "^6.3.0",
     "isbot": "^5.1.17",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",

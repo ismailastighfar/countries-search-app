@@ -1,5 +1,4 @@
 import {
-  HashRouter,
   isRouteErrorResponse,
   Links,
   Meta,
@@ -11,7 +10,6 @@ import {
 import type { Route } from "./+types/root";
 import "./app.css";
 import Navbar from "./components/Navbar";
-import { BrowserRouter } from "react-router";
 
 export const links: Route.LinksFunction = () => [
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
@@ -47,12 +45,10 @@ export function Layout({ children }: { children: React.ReactNode }) {
 
 export default function App() {
   return (
-    <HashRouter basename="/countries-search-app">
     <div>
-      <Navbar />
-      <Outlet />
-    </div>
-  </HashRouter>
+    <Navbar />
+   <Outlet />
+   </div>
   )
 }
 
